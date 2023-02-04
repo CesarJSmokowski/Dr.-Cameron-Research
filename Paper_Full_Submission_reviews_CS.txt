@@ -1,0 +1,807 @@
+Instructions for making off-line reviews:
+
+If this form has opened in your browser save it as a text file.
+
+Edit your saved file in a plain text editor, not a word processor.  When you are
+done, upload this file into Linklings using the Offline Reviews tab.
+
+Lines enclosed by angle brackets (<< and >>) are review questions or
+information identifying the review and submission. These lines should not be
+changed. Lines beginning with '//' are comments and will be ignored.
+
+There are three kinds of questions: multiple choice, text response and
+confirmation questions.
+
+Multiple choice questions have the question, then several options beginning
+with '//'. Select your response by removing the '//' on the appropriate line.
+
+Text response questions have the question followed by several blank lines. You
+can enter your response on these blank lines, adding extra lines as needed.
+Markdown notation is supported.
+
+Confirmation questions just have a single commented line following the
+question. Remove the '//' to confirm the statement.
+
+If there is a review form in this file that you do not want to fill out at
+this time you can leave it blank.
+
+To upload this file into Linklings, use the Offline Reviews tab.
+
+After you submit the reviews you will be able to view and edit them online.
+You should verify that your reviews were parsed as expected by viewing them
+within the system.
+
+------------------------------------------------------------------------------
+
+<<NEW REVIEW>>
+
+<< submission reviewed: (pap119s2) Alioth: A Machine Learning Based Interference-Aware Performance Monitor for Multi-Tenancy Applications in Public Cloud >>
+
+<< track: Multidisciplinary >>
+
+<< reviewer: Kirk Cameron (cameron@cs.vt.edu) >>
+
+<< reviewing as: Committee Member: Multidisciplinary >>
+
+<<REVIEW QUESTIONS>>
+
+
+<< Reasons to Accept (required)
+Reasons to Accept 
+ 
+Please articulate all the positives you have identified, irrespective of your overall merit rating. >>
+
+The article does a great job outlining challenges faced by previous performance monitoring systems and clearly states how their implementation address each of these challenges
+
+The authors clearly explain why they chose their implementation approach and the significance of each test they used to evaluate their experimental results
+
+It was easy to understand how the authors modeled realistic workflows on their VMs to accurately capture performance degradation metrics
+
+The conclusion drawn by the authors holds up, because of their thorough modeling process and the data they collected used nuanced scenarios that account for many factors previous oversimplified studies did not
+
+
+
+<< Areas of Improvement (required)
+Areas of Improvement
+ 
+ 
+ If your overall merit score is lower than or equal to 3, please list three major concerns that stop you from giving a higher rating. If you identify "limited or incremental novelty" as one of the areas of improvement, please be sure to cite the appropriate related works. >>
+
+
+Including more information on how Alioth operates online vs offline and how the modeling results was different for each would be helpful
+
+The article could explain the team's data preprocessing and how filtering values influenced their key data observations
+
+
+
+
+<< Detailed Feedback for Authors (required)
+Detailed Feedback for Authors
+ Please provide a detailed review, including a detailed justification for your scores. If you identify "limited or incremental novelty" as one of the areas of improvement, please be sure to cite the appropriate related works. The feedback should be actionable so that the authors can improve the work in the future. >>
+
+Overall, the article does a great job explaining each aspect of the system in detail and highlighting what it does better than previous implementations. I appreciated the lengths the team went to so the modeling process recreated real-world scenarios to accurately capture performance degradation metrics.
+
+
+
+
+
+<< Confidential Remarks
+Confidential Remarks (visible to PC members only)  If you wish to add any remarks intended only for the PC members please write them below. These remarks will only be seen by the PC members who have access to the reviews for this submission. They will not be sent to the authors. This field is optional. >>
+
+
+
+
+
+
+//Overall First-Round Merit. Make sure your overall rating is consistent with your detailed review comments. This field will be visible to the authors at the time of the review rebuttal/response period. Choices are: 1. I have strong reasons to oppose acceptance and will argue for rejection. 2. I have some concerns that are unlikely to be addressed during the revision period. 3. This paper makes reasonable contributions, but has certain shortcomings that could be potentially addressed during the revision period. 4. This paper has new insights and contributions, and meets the bar to be published at IPDPS (it may require some lightweight modifications/clarifications). 5. This paper is near at the top among the papers I reviewed this year for IPDPS. Nature of Suggested Improvement. This field will be visible to the authors at the time of review rebuttal/response period. The goal of this field is to assess the nature and level of revision required (methodological changes, textual changes, etc.), and their impact on the major conclusions of the paper. This field also allows the authors to understand the severity of the raised concern from the reviewer’s point of view – in terms of what kind of changes are expected/recommended to improve the quality of the work. If you choose 1, 2, or 3, please be sure to include a detailed justification in your detailed comments. Choices are: 1. The raised concerns require significant new experiments, methodological changes, or non-trivial changes in the problem formulation or theoretical framework. 2. The raised concerns may require new experiments, analysis, or theoretical evidence and these changes may potentially impact the current findings or results. 3. The raised concerns may require new experiments, analysis, or theoretical evidence but these changes are not likely to impact the current findings or results. 4. The raised concerns can be addressed via significant textual edits. 5. No revisions are expected or the raised concerns can be addressed via minor textual edits. Writing Quality: This field will be visible to the authors at the time of review rebuttal/response period. The goal is to assess the writing quality in terms of how much hindrance it presented in understanding and appreciating the key contributions. Reviewer Expertise. This field will be visible to the authors at the time of review rebuttals. Confidence Level. This field attempts to capture a combination of reviewer expertise and time spent reviewing the paper. Please provide your frank assessment. We are putting a higher weight on the time spent toward reviewing than expertise toward calculating the overall confidence. This field allows PC chairs to assess if a particular paper needs a higher confidence review. This field will not be visible to authors ever, but will be visible to the PC. Choices are: 1. I have no familiarity with the subject and have very low confidence in my review. 2. I have some familiarity with the subject, but not confident in my review. I spent very little time reviewing this paper. 3. I am an expert, but I am not very confident in my review. I spent very little time reviewing this paper. 4. I have no familiarity with the subject, but confident in my review. I spent sufficient time reviewing this paper. 5. I have some familiarity with the subject or am knowledgeable, and I am confident in my review. I spent sufficient time reviewing this paper. 6. I am an expert and I am confident in my review. I spent sufficient time reviewing this paper. Review Quality Self-Declaration. I am providing thoughtful, unbiased, and in-depth review -- I'd be happy to receive this quality of review for my own papers. This field will not be visible to authors ever, but will be visible to the PC. Choices are: 1. I would have been able to do a much better job if my circumstances were different. 2. A little more than halfway successful. 3. Yes, I am providing a thoughtful, unbiased, and in-depth review.
+
+
+
+<< Overall First-Round Merit (required) >>
+
+
+//1. I have strong reasons to oppose acceptance and will argue for rejection.
+
+//2. I have some concerns that are unlikely to be addressed during the revision period.
+
+//3. This paper makes reasonable contributions, but has certain shortcomings that could be potentially addressed during the revision period.
+
+//4. This paper has new insights and contributions, and meets the bar to be published at IPDPS (it may require some lightweight modifications/clarifications).
+
+5. This paper is near at the top among the papers I reviewed this year.
+
+
+
+<< Nature of Suggested Improvement (required) >>
+
+
+//1. The raised concerns require significant new experiments,  methodological changes, or non-trivial changes in the problem formulation or theoretical framework.
+
+//2. The raised concerns may require new experiments, analysis, or theoretical evidence and these changes may potentially impact the current findings or results.
+
+//3. The raised concerns may require new experiments, analysis, or theoretical evidence but these changes are not likely to impact the current findings or results.
+
+4. The raised concerns can be addressed via significant textual edits.
+
+//5. No revisions are expected or the raised concerns can be addressed via minor textual edits.
+
+
+
+<< Writing Quality (required) >>
+
+
+//1. I could not understand most of the paper, and it significantly affected my judgment of the contributions.
+
+//2. I was able to understand most of the paper, but I had difficulty understanding a few parts.
+
+//3. Overall, the writing/presentation quality was acceptable, and I could understand almost all the key contributions of the paper.
+
+//4. The writing and presentation were of very high quality and contributed toward better understanding.
+
+5. The writing quality was very high. I would recommend this paper to my colleagues and students.
+
+
+
+<< Reviewer Expertise (required) >>
+
+
+1. No familiarity
+
+//2. Some familiarity
+
+//3. Knowledgeable
+
+//4. Expert
+
+
+
+<< Confidence Level (required) >>
+
+
+//1. I have no familiarity with the subject and have very low confidence in my review.
+
+//2. I have some familiarity with the subject, but not confident in my review. I spent very little time reviewing this paper.
+
+//3. I am an expert, but I am not very confident in my review. I spent very little time reviewing this paper.
+
+4. I have no familiarity with the subject, but confident in my review. I spent sufficient time reviewing this paper.
+
+//5. I have some familiarity with the subject or am knowledgeable, and I am confident in my review. I spent sufficient time reviewing this paper.
+
+//6. I am an expert and I am confident in my review. I spent sufficient time reviewing this paper.
+
+
+
+<< Review Quality Self-Declaration (required) >>
+
+
+//1. I would have been able to do a much better job if my circumstances were different.
+
+2. A little more than halfway successful.
+
+//3. Yes, I am providing a thoughtful, unbiased, and in-depth review.
+
+
+
+<< Would you like to receive a copy of this review by email? >>
+
+
+//yes
+
+//------------------------------------------------------------------------------
+<<NEW REVIEW>>
+
+<< submission reviewed: (pap286s2) Optimized GPU-accelerated feature extraction for ORB-SLAM systems >>
+
+<< track: Multidisciplinary >>
+
+<< reviewer: Kirk Cameron (cameron@cs.vt.edu) >>
+
+<< reviewing as: Committee Member: Multidisciplinary >>
+
+<<REVIEW QUESTIONS>>
+
+
+<< Reasons to Accept (required)
+Reasons to Accept 
+ 
+Please articulate all the positives you have identified, irrespective of your overall merit rating. >>
+
+The authors do a good job explaining each component of their CUDA implementation and the Pyramid construction method they suggest
+
+The team's results are reproducible, because of their inclusion of their source files in the Git repository and their primary focus was on the Tracking phase of the ORB-SLAM algorithm
+
+
+
+
+<< Areas of Improvement (required)
+Areas of Improvement
+ 
+ 
+ If your overall merit score is lower than or equal to 3, please list three major concerns that stop you from giving a higher rating. If you identify "limited or incremental novelty" as one of the areas of improvement, please be sure to cite the appropriate related works. >>
+
+
+The Introduction section could include more detailed background information. The article claims that their parallel implementation of the Tracking part of the ORB-SLAM pipeline can be merged into ORB-SLAM2 and ORB-SLAM3, but the differences between ORB-SLAM2 and ORB-SLAM3 are not highlighted and whether any adjustments will need to be made. 
+
+
+
+
+
+<< Detailed Feedback for Authors (required)
+Detailed Feedback for Authors
+ Please provide a detailed review, including a detailed justification for your scores. If you identify "limited or incremental novelty" as one of the areas of improvement, please be sure to cite the appropriate related works. The feedback should be actionable so that the authors can improve the work in the future. >>
+
+
+It would be helpful for readers with little to no familiarity with the topic to have more background on the ORB-SLAM algorithm and why the Tracking phase is a good target for optimization, outside of the fact that previous implementations have focused on the Tracking phase. 
+
+
+
+
+
+<< Confidential Remarks
+Confidential Remarks (visible to PC members only)  If you wish to add any remarks intended only for the PC members please write them below. These remarks will only be seen by the PC members who have access to the reviews for this submission. They will not be sent to the authors. This field is optional. >>
+
+
+
+
+
+
+//Overall First-Round Merit. Make sure your overall rating is consistent with your detailed review comments. This field will be visible to the authors at the time of the review rebuttal/response period. Choices are: 1. I have strong reasons to oppose acceptance and will argue for rejection. 2. I have some concerns that are unlikely to be addressed during the revision period. 3. This paper makes reasonable contributions, but has certain shortcomings that could be potentially addressed during the revision period. 4. This paper has new insights and contributions, and meets the bar to be published at IPDPS (it may require some lightweight modifications/clarifications). 5. This paper is near at the top among the papers I reviewed this year for IPDPS. Nature of Suggested Improvement. This field will be visible to the authors at the time of review rebuttal/response period. The goal of this field is to assess the nature and level of revision required (methodological changes, textual changes, etc.), and their impact on the major conclusions of the paper. This field also allows the authors to understand the severity of the raised concern from the reviewer’s point of view – in terms of what kind of changes are expected/recommended to improve the quality of the work. If you choose 1, 2, or 3, please be sure to include a detailed justification in your detailed comments. Choices are: 1. The raised concerns require significant new experiments, methodological changes, or non-trivial changes in the problem formulation or theoretical framework. 2. The raised concerns may require new experiments, analysis, or theoretical evidence and these changes may potentially impact the current findings or results. 3. The raised concerns may require new experiments, analysis, or theoretical evidence but these changes are not likely to impact the current findings or results. 4. The raised concerns can be addressed via significant textual edits. 5. No revisions are expected or the raised concerns can be addressed via minor textual edits. Writing Quality: This field will be visible to the authors at the time of review rebuttal/response period. The goal is to assess the writing quality in terms of how much hindrance it presented in understanding and appreciating the key contributions. Reviewer Expertise. This field will be visible to the authors at the time of review rebuttals. Confidence Level. This field attempts to capture a combination of reviewer expertise and time spent reviewing the paper. Please provide your frank assessment. We are putting a higher weight on the time spent toward reviewing than expertise toward calculating the overall confidence. This field allows PC chairs to assess if a particular paper needs a higher confidence review. This field will not be visible to authors ever, but will be visible to the PC. Choices are: 1. I have no familiarity with the subject and have very low confidence in my review. 2. I have some familiarity with the subject, but not confident in my review. I spent very little time reviewing this paper. 3. I am an expert, but I am not very confident in my review. I spent very little time reviewing this paper. 4. I have no familiarity with the subject, but confident in my review. I spent sufficient time reviewing this paper. 5. I have some familiarity with the subject or am knowledgeable, and I am confident in my review. I spent sufficient time reviewing this paper. 6. I am an expert and I am confident in my review. I spent sufficient time reviewing this paper. Review Quality Self-Declaration. I am providing thoughtful, unbiased, and in-depth review -- I'd be happy to receive this quality of review for my own papers. This field will not be visible to authors ever, but will be visible to the PC. Choices are: 1. I would have been able to do a much better job if my circumstances were different. 2. A little more than halfway successful. 3. Yes, I am providing a thoughtful, unbiased, and in-depth review.
+
+
+
+<< Overall First-Round Merit (required) >>
+
+
+//1. I have strong reasons to oppose acceptance and will argue for rejection.
+
+//2. I have some concerns that are unlikely to be addressed during the revision period.
+
+//3. This paper makes reasonable contributions, but has certain shortcomings that could be potentially addressed during the revision period.
+
+4. This paper has new insights and contributions, and meets the bar to be published at IPDPS (it may require some lightweight modifications/clarifications).
+
+//5. This paper is near at the top among the papers I reviewed this year.
+
+
+
+<< Nature of Suggested Improvement (required) >>
+
+
+//1. The raised concerns require significant new experiments,  methodological changes, or non-trivial changes in the problem formulation or theoretical framework.
+
+//2. The raised concerns may require new experiments, analysis, or theoretical evidence and these changes may potentially impact the current findings or results.
+
+//3. The raised concerns may require new experiments, analysis, or theoretical evidence but these changes are not likely to impact the current findings or results.
+
+4. The raised concerns can be addressed via significant textual edits.
+
+//5. No revisions are expected or the raised concerns can be addressed via minor textual edits.
+
+
+
+<< Writing Quality (required) >>
+
+
+//1. I could not understand most of the paper, and it significantly affected my judgment of the contributions.
+
+//2. I was able to understand most of the paper, but I had difficulty understanding a few parts.
+
+3. Overall, the writing/presentation quality was acceptable, and I could understand almost all the key contributions of the paper.
+
+//4. The writing and presentation were of very high quality and contributed toward better understanding.
+
+//5. The writing quality was very high. I would recommend this paper to my colleagues and students.
+
+
+
+<< Reviewer Expertise (required) >>
+
+
+1. No familiarity
+
+//2. Some familiarity
+
+//3. Knowledgeable
+
+//4. Expert
+
+
+
+<< Confidence Level (required) >>
+
+
+//1. I have no familiarity with the subject and have very low confidence in my review.
+
+//2. I have some familiarity with the subject, but not confident in my review. I spent very little time reviewing this paper.
+
+//3. I am an expert, but I am not very confident in my review. I spent very little time reviewing this paper.
+
+4. I have no familiarity with the subject, but confident in my review. I spent sufficient time reviewing this paper.
+
+//5. I have some familiarity with the subject or am knowledgeable, and I am confident in my review. I spent sufficient time reviewing this paper.
+
+//6. I am an expert and I am confident in my review. I spent sufficient time reviewing this paper.
+
+
+
+<< Review Quality Self-Declaration (required) >>
+
+
+//1. I would have been able to do a much better job if my circumstances were different.
+
+2. A little more than halfway successful.
+
+//3. Yes, I am providing a thoughtful, unbiased, and in-depth review.
+
+
+
+<< Would you like to receive a copy of this review by email? >>
+
+
+//yes
+
+//------------------------------------------------------------------------------
+<<NEW REVIEW>>
+
+<< submission reviewed: (pap293s2) ZFP-X: Efficient Embedded Coding for Accelerating Lossy Floating Point Compression >>
+
+<< track: Multidisciplinary >>
+
+<< reviewer: Kirk Cameron (cameron@cs.vt.edu) >>
+
+<< reviewing as: Committee Member: Multidisciplinary >>
+
+<<REVIEW QUESTIONS>>
+
+
+<< Reasons to Accept (required)
+Reasons to Accept 
+ 
+Please articulate all the positives you have identified, irrespective of your overall merit rating. >>
+
+The article does a good job explaining the significance of I/O bandwidth and the bottleneck it can be for on the next generation of HPC systems
+
+The authors give a clear explanation of why ZFP is the best-performing lossy compressors and why they chose it to test their implementation over SZ. 
+
+The authors also do a great job setting clear goals for their project and explaining why the shift from a bit plane to bit groups
+
+
+
+
+
+<< Areas of Improvement (required)
+Areas of Improvement
+ 
+ 
+ If your overall merit score is lower than or equal to 3, please list three major concerns that stop you from giving a higher rating. If you identify "limited or incremental novelty" as one of the areas of improvement, please be sure to cite the appropriate related works. >>
+
+It would be helpful to include more detailed background on the Pyramid construction method on GPU that the authors proposed and how the influence it had on the performance analysis of ZFP-X
+
+ 
+
+
+
+
+<< Detailed Feedback for Authors (required)
+Detailed Feedback for Authors
+ Please provide a detailed review, including a detailed justification for your scores. If you identify "limited or incremental novelty" as one of the areas of improvement, please be sure to cite the appropriate related works. The feedback should be actionable so that the authors can improve the work in the future. >>
+
+
+Overall, I think the article did an effective job explaining the scope of the problem, the motivation behind each design decision in the authors' implementation and how they evaluated their results. In the Introduction section, the authors do a great job explaining why ZFP was chosen to implement their new embedded coding. It would be helpful to include more information on the significance of the new Pyramid construction method proposed by the authors.
+
+
+
+
+<< Confidential Remarks
+Confidential Remarks (visible to PC members only)  If you wish to add any remarks intended only for the PC members please write them below. These remarks will only be seen by the PC members who have access to the reviews for this submission. They will not be sent to the authors. This field is optional. >>
+
+
+
+
+
+
+//Overall First-Round Merit. Make sure your overall rating is consistent with your detailed review comments. This field will be visible to the authors at the time of the review rebuttal/response period. Choices are: 1. I have strong reasons to oppose acceptance and will argue for rejection. 2. I have some concerns that are unlikely to be addressed during the revision period. 3. This paper makes reasonable contributions, but has certain shortcomings that could be potentially addressed during the revision period. 4. This paper has new insights and contributions, and meets the bar to be published at IPDPS (it may require some lightweight modifications/clarifications). 5. This paper is near at the top among the papers I reviewed this year for IPDPS. Nature of Suggested Improvement. This field will be visible to the authors at the time of review rebuttal/response period. The goal of this field is to assess the nature and level of revision required (methodological changes, textual changes, etc.), and their impact on the major conclusions of the paper. This field also allows the authors to understand the severity of the raised concern from the reviewer’s point of view – in terms of what kind of changes are expected/recommended to improve the quality of the work. If you choose 1, 2, or 3, please be sure to include a detailed justification in your detailed comments. Choices are: 1. The raised concerns require significant new experiments, methodological changes, or non-trivial changes in the problem formulation or theoretical framework. 2. The raised concerns may require new experiments, analysis, or theoretical evidence and these changes may potentially impact the current findings or results. 3. The raised concerns may require new experiments, analysis, or theoretical evidence but these changes are not likely to impact the current findings or results. 4. The raised concerns can be addressed via significant textual edits. 5. No revisions are expected or the raised concerns can be addressed via minor textual edits. Writing Quality: This field will be visible to the authors at the time of review rebuttal/response period. The goal is to assess the writing quality in terms of how much hindrance it presented in understanding and appreciating the key contributions. Reviewer Expertise. This field will be visible to the authors at the time of review rebuttals. Confidence Level. This field attempts to capture a combination of reviewer expertise and time spent reviewing the paper. Please provide your frank assessment. We are putting a higher weight on the time spent toward reviewing than expertise toward calculating the overall confidence. This field allows PC chairs to assess if a particular paper needs a higher confidence review. This field will not be visible to authors ever, but will be visible to the PC. Choices are: 1. I have no familiarity with the subject and have very low confidence in my review. 2. I have some familiarity with the subject, but not confident in my review. I spent very little time reviewing this paper. 3. I am an expert, but I am not very confident in my review. I spent very little time reviewing this paper. 4. I have no familiarity with the subject, but confident in my review. I spent sufficient time reviewing this paper. 5. I have some familiarity with the subject or am knowledgeable, and I am confident in my review. I spent sufficient time reviewing this paper. 6. I am an expert and I am confident in my review. I spent sufficient time reviewing this paper. Review Quality Self-Declaration. I am providing thoughtful, unbiased, and in-depth review -- I'd be happy to receive this quality of review for my own papers. This field will not be visible to authors ever, but will be visible to the PC. Choices are: 1. I would have been able to do a much better job if my circumstances were different. 2. A little more than halfway successful. 3. Yes, I am providing a thoughtful, unbiased, and in-depth review.
+
+
+
+<< Overall First-Round Merit (required) >>
+
+
+//1. I have strong reasons to oppose acceptance and will argue for rejection.
+
+//2. I have some concerns that are unlikely to be addressed during the revision period.
+
+//3. This paper makes reasonable contributions, but has certain shortcomings that could be potentially addressed during the revision period.
+
+//4. This paper has new insights and contributions, and meets the bar to be published at IPDPS (it may require some lightweight modifications/clarifications).
+
+5. This paper is near at the top among the papers I reviewed this year.
+
+
+
+<< Nature of Suggested Improvement (required) >>
+
+
+//1. The raised concerns require significant new experiments,  methodological changes, or non-trivial changes in the problem formulation or theoretical framework.
+
+//2. The raised concerns may require new experiments, analysis, or theoretical evidence and these changes may potentially impact the current findings or results.
+
+//3. The raised concerns may require new experiments, analysis, or theoretical evidence but these changes are not likely to impact the current findings or results.
+
+//4. The raised concerns can be addressed via significant textual edits.
+
+5. No revisions are expected or the raised concerns can be addressed via minor textual edits.
+
+
+
+<< Writing Quality (required) >>
+
+
+//1. I could not understand most of the paper, and it significantly affected my judgment of the contributions.
+
+//2. I was able to understand most of the paper, but I had difficulty understanding a few parts.
+
+//3. Overall, the writing/presentation quality was acceptable, and I could understand almost all the key contributions of the paper.
+
+4. The writing and presentation were of very high quality and contributed toward better understanding.
+
+//5. The writing quality was very high. I would recommend this paper to my colleagues and students.
+
+
+
+<< Reviewer Expertise (required) >>
+
+
+//1. No familiarity
+
+2. Some familiarity
+
+//3. Knowledgeable
+
+//4. Expert
+
+
+
+<< Confidence Level (required) >>
+
+
+//1. I have no familiarity with the subject and have very low confidence in my review.
+
+//2. I have some familiarity with the subject, but not confident in my review. I spent very little time reviewing this paper.
+
+//3. I am an expert, but I am not very confident in my review. I spent very little time reviewing this paper.
+
+//4. I have no familiarity with the subject, but confident in my review. I spent sufficient time reviewing this paper.
+
+5. I have some familiarity with the subject or am knowledgeable, and I am confident in my review. I spent sufficient time reviewing this paper.
+
+//6. I am an expert and I am confident in my review. I spent sufficient time reviewing this paper.
+
+
+
+<< Review Quality Self-Declaration (required) >>
+
+
+//1. I would have been able to do a much better job if my circumstances were different.
+
+//2. A little more than halfway successful.
+
+3. Yes, I am providing a thoughtful, unbiased, and in-depth review.
+
+
+
+<< Would you like to receive a copy of this review by email? >>
+
+
+//yes
+
+//------------------------------------------------------------------------------
+<<NEW REVIEW>>
+
+<< submission reviewed: (pap536s2) SystemX: The First General Descriptive Metadata Solution for HPC >>
+
+<< track: Multidisciplinary >>
+
+<< reviewer: Kirk Cameron (cameron@cs.vt.edu) >>
+
+<< reviewing as: Committee Member: Multidisciplinary >>
+
+<<REVIEW QUESTIONS>>
+
+
+<< Reasons to Accept (required)
+Reasons to Accept 
+ 
+Please articulate all the positives you have identified, irrespective of your overall merit rating. >>
+
+The article purposes a well thought out and thoroughly tested system that sets a baseline for helpful functionality uniquely possible through HPC descriptive metadata management
+
+The authors do a good job incorporating background information and helpful figures to make the article accessible to readers with little to no background knowledge
+
+The authors take into account the wide variety of different HPC systems and adjust their SystemX implementation to offer support for more HPCs. 
+
+
+
+
+
+<< Areas of Improvement (required)
+Areas of Improvement
+ 
+ 
+ If your overall merit score is lower than or equal to 3, please list three major concerns that stop you from giving a higher rating. If you identify "limited or incremental novelty" as one of the areas of improvement, please be sure to cite the appropriate related works. >>
+
+The SystemX testing result could be more reproducible by making the source files accessible to readers
+
+
+
+
+
+<< Detailed Feedback for Authors (required)
+Detailed Feedback for Authors
+ Please provide a detailed review, including a detailed justification for your scores. If you identify "limited or incremental novelty" as one of the areas of improvement, please be sure to cite the appropriate related works. The feedback should be actionable so that the authors can improve the work in the future. >>
+
+The Introduction section highlights that there has been no previous work that has created a general HPC descriptive metadata management system. Despite this, the authors did a great job explaining some key concepts that motivated their design decisions in the Background	Work section. 
+
+This paper has some of the best, most helpful figures I've seen. As a reader with no familiarity with the research topic, the writing was very clear and the figured were a big help
+
+
+
+<< Confidential Remarks
+Confidential Remarks (visible to PC members only)  If you wish to add any remarks intended only for the PC members please write them below. These remarks will only be seen by the PC members who have access to the reviews for this submission. They will not be sent to the authors. This field is optional. >>
+
+
+
+
+
+
+//Overall First-Round Merit. Make sure your overall rating is consistent with your detailed review comments. This field will be visible to the authors at the time of the review rebuttal/response period. Choices are: 1. I have strong reasons to oppose acceptance and will argue for rejection. 2. I have some concerns that are unlikely to be addressed during the revision period. 3. This paper makes reasonable contributions, but has certain shortcomings that could be potentially addressed during the revision period. 4. This paper has new insights and contributions, and meets the bar to be published at IPDPS (it may require some lightweight modifications/clarifications). 5. This paper is near at the top among the papers I reviewed this year for IPDPS. Nature of Suggested Improvement. This field will be visible to the authors at the time of review rebuttal/response period. The goal of this field is to assess the nature and level of revision required (methodological changes, textual changes, etc.), and their impact on the major conclusions of the paper. This field also allows the authors to understand the severity of the raised concern from the reviewer’s point of view – in terms of what kind of changes are expected/recommended to improve the quality of the work. If you choose 1, 2, or 3, please be sure to include a detailed justification in your detailed comments. Choices are: 1. The raised concerns require significant new experiments, methodological changes, or non-trivial changes in the problem formulation or theoretical framework. 2. The raised concerns may require new experiments, analysis, or theoretical evidence and these changes may potentially impact the current findings or results. 3. The raised concerns may require new experiments, analysis, or theoretical evidence but these changes are not likely to impact the current findings or results. 4. The raised concerns can be addressed via significant textual edits. 5. No revisions are expected or the raised concerns can be addressed via minor textual edits. Writing Quality: This field will be visible to the authors at the time of review rebuttal/response period. The goal is to assess the writing quality in terms of how much hindrance it presented in understanding and appreciating the key contributions. Reviewer Expertise. This field will be visible to the authors at the time of review rebuttals. Confidence Level. This field attempts to capture a combination of reviewer expertise and time spent reviewing the paper. Please provide your frank assessment. We are putting a higher weight on the time spent toward reviewing than expertise toward calculating the overall confidence. This field allows PC chairs to assess if a particular paper needs a higher confidence review. This field will not be visible to authors ever, but will be visible to the PC. Choices are: 1. I have no familiarity with the subject and have very low confidence in my review. 2. I have some familiarity with the subject, but not confident in my review. I spent very little time reviewing this paper. 3. I am an expert, but I am not very confident in my review. I spent very little time reviewing this paper. 4. I have no familiarity with the subject, but confident in my review. I spent sufficient time reviewing this paper. 5. I have some familiarity with the subject or am knowledgeable, and I am confident in my review. I spent sufficient time reviewing this paper. 6. I am an expert and I am confident in my review. I spent sufficient time reviewing this paper. Review Quality Self-Declaration. I am providing thoughtful, unbiased, and in-depth review -- I'd be happy to receive this quality of review for my own papers. This field will not be visible to authors ever, but will be visible to the PC. Choices are: 1. I would have been able to do a much better job if my circumstances were different. 2. A little more than halfway successful. 3. Yes, I am providing a thoughtful, unbiased, and in-depth review.
+
+
+
+<< Overall First-Round Merit (required) >>
+
+
+//1. I have strong reasons to oppose acceptance and will argue for rejection.
+
+//2. I have some concerns that are unlikely to be addressed during the revision period.
+
+//3. This paper makes reasonable contributions, but has certain shortcomings that could be potentially addressed during the revision period.
+
+//4. This paper has new insights and contributions, and meets the bar to be published at IPDPS (it may require some lightweight modifications/clarifications).
+
+5. This paper is near at the top among the papers I reviewed this year.
+
+
+
+<< Nature of Suggested Improvement (required) >>
+
+
+//1. The raised concerns require significant new experiments,  methodological changes, or non-trivial changes in the problem formulation or theoretical framework.
+
+//2. The raised concerns may require new experiments, analysis, or theoretical evidence and these changes may potentially impact the current findings or results.
+
+//3. The raised concerns may require new experiments, analysis, or theoretical evidence but these changes are not likely to impact the current findings or results.
+
+//4. The raised concerns can be addressed via significant textual edits.
+
+5. No revisions are expected or the raised concerns can be addressed via minor textual edits.
+
+
+
+<< Writing Quality (required) >>
+
+
+//1. I could not understand most of the paper, and it significantly affected my judgment of the contributions.
+
+//2. I was able to understand most of the paper, but I had difficulty understanding a few parts.
+
+//3. Overall, the writing/presentation quality was acceptable, and I could understand almost all the key contributions of the paper.
+
+//4. The writing and presentation were of very high quality and contributed toward better understanding.
+
+5. The writing quality was very high. I would recommend this paper to my colleagues and students.
+
+
+
+<< Reviewer Expertise (required) >>
+
+
+1. No familiarity
+
+//2. Some familiarity
+
+//3. Knowledgeable
+
+//4. Expert
+
+
+
+<< Confidence Level (required) >>
+
+
+//1. I have no familiarity with the subject and have very low confidence in my review.
+
+//2. I have some familiarity with the subject, but not confident in my review. I spent very little time reviewing this paper.
+
+//3. I am an expert, but I am not very confident in my review. I spent very little time reviewing this paper.
+
+4. I have no familiarity with the subject, but confident in my review. I spent sufficient time reviewing this paper.
+
+//5. I have some familiarity with the subject or am knowledgeable, and I am confident in my review. I spent sufficient time reviewing this paper.
+
+//6. I am an expert and I am confident in my review. I spent sufficient time reviewing this paper.
+
+
+
+<< Review Quality Self-Declaration (required) >>
+
+
+//1. I would have been able to do a much better job if my circumstances were different.
+
+2. A little more than halfway successful.
+
+//3. Yes, I am providing a thoughtful, unbiased, and in-depth review.
+
+
+
+<< Would you like to receive a copy of this review by email? >>
+
+
+//yes
+
+//------------------------------------------------------------------------------
+<<NEW REVIEW>>
+
+<< submission reviewed: (pap555s2) HighRPM: Bi-directional Power Model Based Spatio-Temporal High-Resolution Power Monitoring >>
+
+<< track: Multidisciplinary >>
+
+<< reviewer: Kirk Cameron (cameron@cs.vt.edu) >>
+
+<< reviewing as: Committee Member: Multidisciplinary >>
+
+<<REVIEW QUESTIONS>>
+
+
+<< Reasons to Accept (required)
+Reasons to Accept 
+ 
+Please articulate all the positives you have identified, irrespective of your overall merit rating. >>
+
+The authors do a good job explaining the scope of the problem with existing power monitoring schemes
+
+In the Abstract, the resolution restoration problem is dividing into two dimensions: temporal (TRR) and spatial (SRR)
+
+The authors gives a detailed explanation of the role that integrated measurements and power models play in power monitoring schemes
+
+
+
+<< Areas of Improvement (required)
+Areas of Improvement
+ 
+ 
+ If your overall merit score is lower than or equal to 3, please list three major concerns that stop you from giving a higher rating. If you identify "limited or incremental novelty" as one of the areas of improvement, please be sure to cite the appropriate related works. >>
+
+The abstract is not very descriptive in terms of explaining how the system was tested and how HighRPM addresses the problems associated with existing power monitoring schemes. 
+
+Both the Abstract and Conclusion touch on some of the improvements that switching to HighRPM had over existing power monitoring schemes, but neither section gives exact values in terms of accuracy
+
+
+
+
+
+<< Detailed Feedback for Authors (required)
+Detailed Feedback for Authors
+ Please provide a detailed review, including a detailed justification for your scores. If you identify "limited or incremental novelty" as one of the areas of improvement, please be sure to cite the appropriate related works. The feedback should be actionable so that the authors can improve the work in the future. >>
+
+The Introduction section should include specific, actionable items that highlight how HighRPM tackles the issues that affect existing power monitoring schemes
+
+The article should replace "HighRPM has high accuracy and wide applicability" in the final paragraph of the Introduction with more explanation of what testing metrics were used and values that synthesize the improvements HighRPM accounted for. 
+
+For readers with little to no familiarity with the research topic, the division between SRR and TRR was not abundantly clear and could be improved with a more detailed explanation or a figure. 
+
+
+
+<< Confidential Remarks
+Confidential Remarks (visible to PC members only)  If you wish to add any remarks intended only for the PC members please write them below. These remarks will only be seen by the PC members who have access to the reviews for this submission. They will not be sent to the authors. This field is optional. >>
+
+
+
+
+
+
+//Overall First-Round Merit. Make sure your overall rating is consistent with your detailed review comments. This field will be visible to the authors at the time of the review rebuttal/response period. Choices are: 1. I have strong reasons to oppose acceptance and will argue for rejection. 2. I have some concerns that are unlikely to be addressed during the revision period. 3. This paper makes reasonable contributions, but has certain shortcomings that could be potentially addressed during the revision period. 4. This paper has new insights and contributions, and meets the bar to be published at IPDPS (it may require some lightweight modifications/clarifications). 5. This paper is near at the top among the papers I reviewed this year for IPDPS. Nature of Suggested Improvement. This field will be visible to the authors at the time of review rebuttal/response period. The goal of this field is to assess the nature and level of revision required (methodological changes, textual changes, etc.), and their impact on the major conclusions of the paper. This field also allows the authors to understand the severity of the raised concern from the reviewer’s point of view – in terms of what kind of changes are expected/recommended to improve the quality of the work. If you choose 1, 2, or 3, please be sure to include a detailed justification in your detailed comments. Choices are: 1. The raised concerns require significant new experiments, methodological changes, or non-trivial changes in the problem formulation or theoretical framework. 2. The raised concerns may require new experiments, analysis, or theoretical evidence and these changes may potentially impact the current findings or results. 3. The raised concerns may require new experiments, analysis, or theoretical evidence but these changes are not likely to impact the current findings or results. 4. The raised concerns can be addressed via significant textual edits. 5. No revisions are expected or the raised concerns can be addressed via minor textual edits. Writing Quality: This field will be visible to the authors at the time of review rebuttal/response period. The goal is to assess the writing quality in terms of how much hindrance it presented in understanding and appreciating the key contributions. Reviewer Expertise. This field will be visible to the authors at the time of review rebuttals. Confidence Level. This field attempts to capture a combination of reviewer expertise and time spent reviewing the paper. Please provide your frank assessment. We are putting a higher weight on the time spent toward reviewing than expertise toward calculating the overall confidence. This field allows PC chairs to assess if a particular paper needs a higher confidence review. This field will not be visible to authors ever, but will be visible to the PC. Choices are: 1. I have no familiarity with the subject and have very low confidence in my review. 2. I have some familiarity with the subject, but not confident in my review. I spent very little time reviewing this paper. 3. I am an expert, but I am not very confident in my review. I spent very little time reviewing this paper. 4. I have no familiarity with the subject, but confident in my review. I spent sufficient time reviewing this paper. 5. I have some familiarity with the subject or am knowledgeable, and I am confident in my review. I spent sufficient time reviewing this paper. 6. I am an expert and I am confident in my review. I spent sufficient time reviewing this paper. Review Quality Self-Declaration. I am providing thoughtful, unbiased, and in-depth review -- I'd be happy to receive this quality of review for my own papers. This field will not be visible to authors ever, but will be visible to the PC. Choices are: 1. I would have been able to do a much better job if my circumstances were different. 2. A little more than halfway successful. 3. Yes, I am providing a thoughtful, unbiased, and in-depth review.
+
+
+
+<< Overall First-Round Merit (required) >>
+
+
+//1. I have strong reasons to oppose acceptance and will argue for rejection.
+
+//2. I have some concerns that are unlikely to be addressed during the revision period.
+
+3. This paper makes reasonable contributions, but has certain shortcomings that could be potentially addressed during the revision period.
+
+//4. This paper has new insights and contributions, and meets the bar to be published at IPDPS (it may require some lightweight modifications/clarifications).
+
+//5. This paper is near at the top among the papers I reviewed this year.
+
+
+
+<< Nature of Suggested Improvement (required) >>
+
+
+//1. The raised concerns require significant new experiments,  methodological changes, or non-trivial changes in the problem formulation or theoretical framework.
+
+2. The raised concerns may require new experiments, analysis, or theoretical evidence and these changes may potentially impact the current findings or results.
+
+//3. The raised concerns may require new experiments, analysis, or theoretical evidence but these changes are not likely to impact the current findings or results.
+
+//4. The raised concerns can be addressed via significant textual edits.
+
+//5. No revisions are expected or the raised concerns can be addressed via minor textual edits.
+
+
+
+<< Writing Quality (required) >>
+
+
+//1. I could not understand most of the paper, and it significantly affected my judgment of the contributions.
+
+//2. I was able to understand most of the paper, but I had difficulty understanding a few parts.
+
+3. Overall, the writing/presentation quality was acceptable, and I could understand almost all the key contributions of the paper.
+
+//4. The writing and presentation were of very high quality and contributed toward better understanding.
+
+//5. The writing quality was very high. I would recommend this paper to my colleagues and students.
+
+
+
+<< Reviewer Expertise (required) >>
+
+
+//1. No familiarity
+
+2. Some familiarity
+
+//3. Knowledgeable
+
+//4. Expert
+
+
+
+<< Confidence Level (required) >>
+
+
+//1. I have no familiarity with the subject and have very low confidence in my review.
+
+//2. I have some familiarity with the subject, but not confident in my review. I spent very little time reviewing this paper.
+
+//3. I am an expert, but I am not very confident in my review. I spent very little time reviewing this paper.
+
+//4. I have no familiarity with the subject, but confident in my review. I spent sufficient time reviewing this paper.
+
+5. I have some familiarity with the subject or am knowledgeable, and I am confident in my review. I spent sufficient time reviewing this paper.
+
+//6. I am an expert and I am confident in my review. I spent sufficient time reviewing this paper.
+
+
+
+<< Review Quality Self-Declaration (required) >>
+
+
+//1. I would have been able to do a much better job if my circumstances were different.
+
+2. A little more than halfway successful.
+
+//3. Yes, I am providing a thoughtful, unbiased, and in-depth review.
+
+
+
+<< Would you like to receive a copy of this review by email? >>
+
+
+//yes
