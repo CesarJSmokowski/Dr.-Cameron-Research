@@ -7,7 +7,7 @@ AR = ar
 
 # Enable if either Cray or IBM: (no such flag for most machines: see wtime.h)
 # MACHINE	=	-DCRAY
-# MACHINE	=	-DIBM
+MACHINE	=	-DIBM
 
 libmpi.a: mpi_dummy.o mpi_dummy_c.o wtime.o
 	$(AR) r libmpi.a mpi_dummy.o mpi_dummy_c.o wtime.o
@@ -17,7 +17,7 @@ mpi_dummy.o: mpi_dummy.f mpif.h
 # For a Cray C90, try:
 #	cf77 -dp -c mpi_dummy.f
 # For an IBM 590, try:
-#	xlf -c mpi_dummy.f
+xlf -c mpi_dummy.f
 
 mpi_dummy_c.o: mpi_dummy.c mpi.h
 	$(CC) -c ${MACHINE} -o mpi_dummy_c.o mpi_dummy.c
